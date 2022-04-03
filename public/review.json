@@ -1,0 +1,54 @@
+[
+  {
+    "id": "1",
+    "name": "Mark",
+    "ratings": 5,
+    "img": "https://d2r55xnwy6nx47.cloudfront.net/uploads/2019/07/Olivier_1500_Trptch.jpg",
+    "Details":"This Place is Fantabulous"
+    
+    
+  },
+  {
+    "id": "2",
+    "name": "Akbar",
+    "ratings": 5,
+    "img": "https://icebreakerquestions.info/random-questions-to-ask-a-guy.jpg",
+    "Details":"This Place is Fantabulous"
+    
+  },
+  {
+    "id": "3",
+    "name": "Tony",
+    "ratings": 5,
+    "img": "https://i2-prod.mirror.co.uk/incoming/article10880823.ece/ALTERNATES/s615b/Mohmed.jpg",
+    "Details":"This Place is Fantabulous"
+    
+  },
+  {
+    "id": "4",
+    "name": "simon",
+    "ratings": 5,
+    "img": "https://metro.co.uk/wp-content/uploads/2016/08/ad_217014428-e1472127266143.jpg?quality=90&strip=all&zoom=1&resize=480%2C477",
+    "Details":"This Place is Fantabulous"
+    
+  },
+  {
+    "id": "5",
+    "name": "Akaon",
+    "ratings": 4.5,
+    "img": "https://i.pinimg.com/474x/75/2b/e0/752be0a61906df0c75f841f72f8ec411.jpg",
+    "Details":"This Place is Fantabulous"
+    
+  },
+  {
+    "id": "6",
+    "name": "sizer",
+    "ratings": 4.5,
+    "img": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cmFuZG9tJTIwcGVvcGxlfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
+    "Details":"This Place is Fantabulous"
+    
+  }
+  
+  
+  
+]
