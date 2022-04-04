@@ -1,0 +1,10 @@
+.review{
+    height: 600px;
+}
+.review img{
+height: 300px;
+width: 300px;
+margin: 10px;
+text-align: center;
+margin-left: 20px;
+}

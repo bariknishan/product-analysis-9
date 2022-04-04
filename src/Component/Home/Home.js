@@ -1,8 +1,13 @@
 import React from 'react';
 import pic from './images/main.jpg';
 import './Home.css';
+import UseReviews from '../../UseReviews/UseReviews';
+// import Reviews from '../Reviews/Reviews';
+import Review from '../Review/Review';
 
 const Home = () => {
+
+    const [reviews, setReviews] = UseReviews();
     return (
         <div className='home-container'>
             <div className="header-container    mt-12">.
@@ -17,20 +22,27 @@ const Home = () => {
                 </div>
             </div>
 
-               {/*/////////////////// review area /////////////////////////*/}
-               
+            {/*/////////////////// review area /////////////////////////*/}
+            <h1 className='text-5xl font-bold  mt-20 text-yellow-600  review-header'>Reviews..</h1>
+
             <div className="reveiws-container   mt-20  ">
+                {
+                    reviews.slice(0, 3).map(review => <Review
+                        key={review.id}
+                        review={review} ></Review>)
+                }
 
-                <h1 className='text-5xl font-bold  mt-20 text-yellow-600  review-header'>Reviews..</h1>
+            </div>
+            <button className='reveiw-btn   ' >See All Reviews..</button>
 
-
-
-                <button className='reveiw-btn  ' >See All Reviews..</button>
-
+            <div className="useReviws-container">
+                {/* <Reviews></Reviews> */}
             </div>
 
 
         </div>
+
+
     );
 };
 

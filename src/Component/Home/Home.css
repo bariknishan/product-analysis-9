@@ -54,3 +54,9 @@
    
     margin: auto;
 }
+
+.reveiws-container  {
+   display: flex;
+  margin: auto;
+   
+}
