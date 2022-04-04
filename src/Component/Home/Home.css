@@ -1,0 +1,56 @@
+/* .home-container{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+} */
+.header-container {
+
+    display: flex;
+    margin: 30px;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.header-container img {
+    width: 1800px;
+    height: 400px;
+}
+
+.header {
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: normal;
+    padding: 20px;
+    
+}
+
+.para {
+
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 40px;
+}
+
+.text-area {
+    margin-right: 10px;
+}
+.btn{
+    background-color: orange;
+    padding: 8px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+    width: 30%;
+}
+
+.reveiw-btn{
+    background-color: orange;
+    padding: 8px;
+    border-radius: 10px;
+    margin-top:40px;
+
+    font-weight: bold;
+   
+    margin: auto;
+}

@@ -1,0 +1,10 @@
+nav a{
+    padding: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* float: left; */
+    
+}
+nav a:hover{
+    color: brown;
+    font-size: 30px;
+}
