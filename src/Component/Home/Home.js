@@ -4,12 +4,13 @@ import './Home.css';
 import UseReviews from '../../UseReviews/UseReviews';
 // import Reviews from '../Reviews/Reviews';
 import Review from '../Review/Review';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
 
     const [reviews, setReviews] = UseReviews();
     return (
-        <div className='home-container'>
+        <div className='home-container mb-20'>
             <div className="header-container    mt-12">.
 
                 <div className='text-area'>
@@ -23,6 +24,7 @@ const Home = () => {
             </div>
 
             {/*/////////////////// review area /////////////////////////*/}
+
             <h1 className='text-5xl font-bold  mt-20 text-yellow-600  review-header'>Reviews..</h1>
 
             <div className="reveiws-container   mt-20  ">
@@ -31,12 +33,13 @@ const Home = () => {
                         key={review.id}
                         review={review} ></Review>)
                 }
-
+             
             </div>
-            <button className='reveiw-btn   ' >See All Reviews..</button>
+          
+            <Link to='/reviews' className='bg-blue-600 p-2 text-2xl rounded-md  '> See All Reviews</Link>
 
             <div className="useReviws-container">
-                {/* <Reviews></Reviews> */}
+               
             </div>
 
 
