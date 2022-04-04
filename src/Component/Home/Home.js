@@ -36,7 +36,7 @@ const Home = () => {
              
             </div>
           
-            <Link to='/reviews' className='bg-blue-600 p-2 text-2xl rounded-md  '> See All Reviews</Link>
+            <Link to='/reviews' className='bg-blue-600 p-2 text-2xl rounded-md  '> See All Reviews...</Link>
 
             <div className="useReviws-container">
                
