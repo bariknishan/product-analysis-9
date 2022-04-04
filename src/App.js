@@ -7,6 +7,7 @@ import Blogs from './Component/Blogs/Blogs';
 import Dashboard from './Component/Dashboard/Dashboard';
 import Header from './Component/Header/Header';
 import Home from './Component/Home/Home';
+import NLineChart from './Component/NLineChart/NLineChart';
 import Notfound from './Component/NotFound/Notfound';
 import Reviews from './Component/Reviews/Reviews';
 
