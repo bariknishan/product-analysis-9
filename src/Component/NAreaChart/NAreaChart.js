@@ -1,10 +1,15 @@
 import React from 'react';
-import { Line, LineChart, Tooltip, XAxis, YAxis } from 'recharts';
+import { Area, AreaChart, Tooltip, XAxis, YAxis } from 'recharts';
 
-const NLineChart = () => {
+const NAreaChart = () => {
 
-    const data=
-    [
+
+                        
+
+                          
+                      
+
+    const data= [
         {
             "month": "Mar",
             "investment": 100000,
@@ -44,23 +49,14 @@ const NLineChart = () => {
     ]
     return (
        
-            
-           <LineChart width={700} height={400}  data={data}  className='mt-20  mx-auto'>
+       <AreaChart  width={700} height={400} data={data} className="mt-20 ms-10  mx-auto mb-20"   >
 
-
-               <Line  dataKey={"sell"}   stroke="#8884d8"      ></Line>
-               <XAxis  dataKey={"month"}></XAxis>
-               <Tooltip></Tooltip>
-               <YAxis ></YAxis>
-
-
-               
-           </LineChart>
-
-
-
-       
+           <Area    dataKey={"revenue"} stroke="#8884d8"   ></Area>
+           <XAxis dataKey={"month"}></XAxis>
+           <Tooltip></Tooltip>
+           <YAxis></YAxis>
+       </AreaChart>
     );
 };
 
-export default NLineChart;
+export default NAreaChart;

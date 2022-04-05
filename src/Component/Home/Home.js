@@ -14,9 +14,9 @@ const Home = () => {
             <div className="header-container    mt-12">.
 
                 <div className='text-area'>
-                    <h1 className='header'>Visit The Wonderfull Saintmartin Island With Some One Special. <span className='text-blue-600'>Explore The area with Low Cost..</span></h1>
+                    <h1 className='header'>Visit The Wonderfull Saintmartin Island With Some One Special. <span className='text-blue-600'>Explore The area with 6000 BDT..</span></h1>
                     <p className='para'>St. Martin's Island  is a small island (area only 3 km2) in the northeastern   part of the Bay of Bengal, about 9 km south of the tip of the Cox's Bazar-Teknaf peninsula, and forming the southernmost part of Bangladesh. </p>
-                    <button className='btn'>See More..</button>
+                    <button className='btn'>See Packages..</button>
                 </div>
                 <div>
                     <img src={pic} alt="" />
