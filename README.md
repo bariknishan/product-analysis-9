@@ -1,7 +1,7 @@
 # tour-app-react
 
 ## app Link:
- [https://lovely-phoenix-47a402.netlify.app]((https://subtle-pastelito-69943a.netlify.app/))
+ [https://lovely-phoenix-47a402.netlify.app](https://lovely-phoenix-47a402.netlify.app/)
 
 ## Project-Description:
 * This project is about tour app.
